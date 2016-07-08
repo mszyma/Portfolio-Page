@@ -3,10 +3,6 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-#fullWidth {
-  padding-left: 0px;
-  padding-right: 0px;
-}
 
 /* Typography */
 .well .page-header {
@@ -92,3 +88,9 @@ footer {
       list-style: none;
       padding-left: 0px;
    }
+
+.background-image {
+  margin-top: -10rem;
+  background: url(img/scms.jpg) no-repeat center fixed;
+  background-size: cover;
+}
