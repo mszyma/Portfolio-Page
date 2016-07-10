@@ -9,16 +9,6 @@ body {
 }
 
 /* Typography */
-
-#headerText {
-  z-index: 1;
-  position: relative;
-  top: 0;
-  left: 10%;
-  width: auto;
-  height: 500px;
-}
-
 .background-image-container {
   position: absolute;
   z-index: -1;
@@ -31,6 +21,17 @@ body {
   width: auto;
   height: auto;
 }
+
+.header-text {
+  position: relative;
+  margin-top: 18%;
+  margin-bottom: 20%;
+
+  width: auto;
+  ;
+}
+
+
 
 .portfolio {
   height: 200px;
