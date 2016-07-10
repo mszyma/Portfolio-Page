@@ -17,14 +17,24 @@ body {
 }
 
 #headerText {
+  z-index: 1;
   position: relative;
-  margin-top: 15%;
+  top: 30%;
+  left: 10%;
+  width: auto;
 }
 
-.description {
-  background: url("img/scms.jpg") no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+.portfolio {
+  height: 200px;
+  background-color: #11e;
+}
+
+.contactMe {
+  height: 200px;
+  background-color: #e1e;
+}
+
+.myFooter {
+  height: 200px;
+  background-color: #eee;
 }
