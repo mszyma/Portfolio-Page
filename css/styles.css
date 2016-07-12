@@ -22,16 +22,28 @@ body {
   height: auto;
 }
 
+header {
+  background: url('../img/scms.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  padding: 20px 0 60px;
+}
+
 .header-text {
   position: relative;
   margin-top: 18%;
   margin-bottom: 20%;
-
   width: auto;
   ;
 }
 
+.about {
+  border: 1px solid;
+}
 
+.portf, .contact{
+  height: 200px;
+  background-color: #eee;
+}
 
 .portfolio {
   height: 200px;
@@ -46,4 +58,10 @@ body {
 .myFooter {
   height: 200px;
   background-color: #eee;
+}
+
+@media (max-width: 767px) {
+  header .col-sm-12 {
+    padding-top: 0px;
+  }
 }
