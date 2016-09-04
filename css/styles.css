@@ -34,11 +34,6 @@ header {
   margin-top: 18%;
   margin-bottom: 20%;
   width: auto;
-  ;
-}
-
-.about {
-  border: 1px solid;
 }
 
 .portf, .contact{
@@ -67,6 +62,11 @@ header {
 
 .aboutMe > .social-icons > a {
   padding: 0px 5px 0px 5px;
+}
+
+.aboutMe > p {
+  color: #636363;
+  padding: 0px 100px;
 }
 
 #contactMariusz {
