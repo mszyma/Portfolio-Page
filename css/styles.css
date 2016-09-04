@@ -36,19 +36,9 @@ header {
   width: auto;
 }
 
-.portf, .contact{
-  height: 200px;
-  background-color: #aaa;
-}
-
-.portfolio {
-  height: 200px;
-  background-color: #11e;
-}
-
 .contactMe {
   height: 200px;
-  background-color: #e1e;
+  background-color: #a3a3a3;
 }
 
 .myFooter {
