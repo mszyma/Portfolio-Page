@@ -1,5 +1,5 @@
 body {
-  
+
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -43,7 +43,7 @@ header {
 
 .portf, .contact{
   height: 200px;
-  background-color: #eee;
+  background-color: #aaa;
 }
 
 .portfolio {
@@ -59,6 +59,18 @@ header {
 .myFooter {
   height: 200px;
   background-color: #eee;
+}
+
+.aboutMe {
+  padding-top: 20px;
+}
+
+.aboutMe > .social-icons > a {
+  padding: 0px 5px 0px 5px;
+}
+
+#contactMariusz {
+  padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
