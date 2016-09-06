@@ -44,6 +44,7 @@ header {
   color: #fff
 }
 
+
 .myFooter {
   height: 200px;
   background-color: #eee;
@@ -62,7 +63,7 @@ header {
   padding: 0px 100px;
 }
 
-#contactMariusz {
+#contactMariusz,  {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px 30px;
@@ -75,7 +76,28 @@ header {
   color: #fff;
   background: #337ab7;
   text-decoration: none;
+}
 
+#submitForm {
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px 30px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  transition: background .5s ease;
+}
+
+#submitForm:hover {
+  color: #e74c3c;
+  background: #fff;
+  text-decoration: none;
+}
+
+.contactForm {
+  width: 460px;
+  margin: auto;
 }
 
 .navbar-header>a {
@@ -85,5 +107,12 @@ header {
 @media (max-width: 767px) {
   header .col-sm-12 {
     padding-top: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contactForm {
+    width: 360px;
+    margin: auto;
   }
 }
