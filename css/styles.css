@@ -36,9 +36,12 @@ header {
   width: auto;
 }
 
+.contact {
+  background-color: #e74c3c;
+}
+
 .contactMe {
-  height: 200px;
-  background-color: #a3a3a3;
+  color: #fff
 }
 
 .myFooter {
@@ -54,7 +57,7 @@ header {
   padding: 0px 5px 0px 5px;
 }
 
-.aboutMe > p {
+.aboutMe>p, .portfolio>h1>p {
   color: #636363;
   padding: 0px 100px;
 }
@@ -62,7 +65,8 @@ header {
 #contactMariusz {
   margin-top: 30px;
   margin-bottom: 30px;
-  border: 1px solid #337ab7;
+  padding: 10px 30px;
+  border: 2px solid #337ab7;
   border-radius: 50px;
   transition: background .5s ease;
 }
@@ -72,6 +76,10 @@ header {
   background: #337ab7;
   text-decoration: none;
 
+}
+
+.navbar-header>a {
+  padding: 0px;
 }
 
 @media (max-width: 767px) {
