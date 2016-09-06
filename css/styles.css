@@ -114,6 +114,15 @@ header {
   padding: 20px 0px;
 }
 
+p a:link {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer {
+  padding: 30px auto;
+}
+
 @media (max-width: 767px) {
   header .col-sm-12 {
     padding-top: 0px;
