@@ -2,7 +2,12 @@ body {
 
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Titillium Web','Roboto',"Helvetica Neue", 'Helvetica', 'Arial', 'sans-serif';
+}
+
 /* Navigation */
 .navbar-default {
   background-color:transparent;
@@ -126,6 +131,9 @@ p a:link {
 @media (max-width: 767px) {
   header .col-sm-12 {
     padding-top: 0px;
+  }
+  .header-text {
+    visibility: hidden;
   }
 }
 
